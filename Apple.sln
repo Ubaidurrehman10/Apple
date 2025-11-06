@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Apple.Services.CouponApi", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Apple.Web", "Apple.Web\Apple.Web.csproj", "{CEDEC2E7-F500-414F-89B7-32FB7B0EAB09}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Apple.Services.AuthApi", "Apple.Services.AuthApi\Apple.Services.AuthApi.csproj", "{14FC1E43-77D7-4F5E-958C-F7EA878FBD10}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +31,10 @@ Global
 		{CEDEC2E7-F500-414F-89B7-32FB7B0EAB09}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CEDEC2E7-F500-414F-89B7-32FB7B0EAB09}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CEDEC2E7-F500-414F-89B7-32FB7B0EAB09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14FC1E43-77D7-4F5E-958C-F7EA878FBD10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14FC1E43-77D7-4F5E-958C-F7EA878FBD10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14FC1E43-77D7-4F5E-958C-F7EA878FBD10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14FC1E43-77D7-4F5E-958C-F7EA878FBD10}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -36,6 +42,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{6022E9AB-4D20-4954-9D37-E2F995C20E78} = {6AC9D0F4-FBE6-4EB8-84AE-B6582A2C2681}
 		{CEDEC2E7-F500-414F-89B7-32FB7B0EAB09} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{14FC1E43-77D7-4F5E-958C-F7EA878FBD10} = {6AC9D0F4-FBE6-4EB8-84AE-B6582A2C2681}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {879EE421-A66D-46D9-A74A-0EB9FFCA4E70}

@@ -1,7 +1,16 @@
+using Apple.Web.Service;
+using Apple.Web.Service.IService;
+using Apple.Web.Utility;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddHttpClient();
+builder.Services.AddHttpClient<ICouponService, CouponService>();
+builder.Services.AddScoped<IBaseService, BaseService>();
+builder.Services.AddScoped<ICouponService, CouponService>();
+StaticDetail.CouponApiBaseUrl = builder.Configuration["ServiceUrl:CouponApiUrl"];
 
 var app = builder.Build();
 
